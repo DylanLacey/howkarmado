@@ -1,5 +1,5 @@
 addons:
-	sauce_connect:
-		username: dylanatsauce
-		access_key:
-			secure: "VlDFE7J2V7+5Jgriaba8gh9Q1N5Mviqd1G04MTXpXLsu7hTJ4fpyYvvP1nPkmL7F96c5XM0J3AlIbIfGA9c8dp5P8BA+bBmAONft9sw8sLeojB3qsaWSt7FES3Z9E0CrOjVRggpbsFIEJq6qupEAPsXg/65Dw3kGIRCLYxLmVGs="
+  sauce_connect:
+    username: dylanatsauce
+      access_key:
+        secure: "VlDFE7J2V7+5Jgriaba8gh9Q1N5Mviqd1G04MTXpXLsu7hTJ4fpyYvvP1nPkmL7F96c5XM0J3AlIbIfGA9c8dp5P8BA+bBmAONft9sw8sLeojB3qsaWSt7FES3Z9E0CrOjVRggpbsFIEJq6qupEAPsXg/65Dw3kGIRCLYxLmVGs="
