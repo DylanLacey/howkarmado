@@ -2,7 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import sys  
+import sys
+from subprocess import call
 
 def test_can_we_host_some_locals():
     sauce_url = "http://dylanatsauce:65f828c5-8ef0-48a7-8d2d-f06d08150020@ondemand.saucelabs.com:80/wd/hub"
@@ -12,7 +13,7 @@ def test_can_we_host_some_locals():
         'browserName': "chrome",
         'version': "31",
     }
-
+    sys.stderr.write(call(['curl', 'http://localhost:8000']))
     driver = webdriver.Remote(desired_capabilities=desired_capabilities,
                               command_executor=sauce_url)
     driver.implicitly_wait(10)
