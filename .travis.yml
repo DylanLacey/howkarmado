@@ -3,7 +3,7 @@ python:
   - "2.7"
 install: "pip install -r requirements.txt"
 before_script: "python manage.py runserver &"
-script: "nosetests test"
+script: "nosetests howkarmado/test"
 addons:
   sauce_connect:
     username: dylanatsauce
